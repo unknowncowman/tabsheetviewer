@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TabViewer
 {
-    public partial class Form1 : Form
+    public partial class TabViewer : Form
     {
-        public Form1()
+        public TabViewer()
         {
             InitializeComponent();
         }

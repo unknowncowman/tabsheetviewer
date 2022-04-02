@@ -1,7 +1,7 @@
 ﻿
 namespace TabViewer
 {
-    partial class Form1
+    partial class TabViewer
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,13 +29,33 @@ namespace TabViewer
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btn_select = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btn_select
+            // 
+            this.btn_select.Location = new System.Drawing.Point(12, 269);
+            this.btn_select.Name = "btn_select";
+            this.btn_select.Size = new System.Drawing.Size(75, 23);
+            this.btn_select.TabIndex = 0;
+            this.btn_select.Text = "Auswählen";
+            this.btn_select.UseVisualStyleBackColor = true;
+            // 
+            // TabViewer
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_select);
+            this.Name = "TabViewer";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btn_select;
     }
 }
 
